@@ -1,0 +1,36 @@
+.speech {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.direction {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: black;
+  background-color: lightyellow;
+}
+
+.direction:hover {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+.name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.hilda {
+  color: purple;
+}
+
+.solness {
+  color: darkgreen;
+}
+
+q {
+  font-style: italic;
+  color: darkred;
+}
