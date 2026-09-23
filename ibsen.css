@@ -34,3 +34,29 @@ q {
   font-style: italic;
   color: darkred;
 }
+
+.cast-table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 25px auto;
+}
+
+.cast-table th,
+.cast-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.cast-table th {
+  background-color: darkgreen;
+  color: white;
+}
+
+.cast-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cast-table tr:nth-child(odd) {
+  background-color: #dddddd;
+}
