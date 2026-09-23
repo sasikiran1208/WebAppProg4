@@ -60,3 +60,10 @@ q {
 .cast-table tr:nth-child(odd) {
   background-color: #dddddd;
 }
+.name:hover {
+  text-shadow: 3px 3px 5px orange;
+  filter: blur(1px);
+  border: 2px solid purple;
+  display: inline-block;
+  padding: 5px;
+}
